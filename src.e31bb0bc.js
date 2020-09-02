@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\review\\background-review.png":[["background-review.2775bee4.png","images/review/background-review.png"],"images/review/background-review.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\how-it-made\\made-icon1.png":[["made-icon1.6b746af1.png","images/how-it-made/made-icon1.png"],"images/how-it-made/made-icon1.png"],"./..\\images\\how-it-made\\made-icon2.png":[["made-icon2.22750913.png","images/how-it-made/made-icon2.png"],"images/how-it-made/made-icon2.png"],"./..\\images\\how-it-made\\made-icon3.png":[["made-icon3.f1fd80fd.png","images/how-it-made/made-icon3.png"],"images/how-it-made/made-icon3.png"],"./..\\images\\review\\background-review.png":[["background-review.2775bee4.png","images/review/background-review.png"],"images/review/background-review.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50726" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57541" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
