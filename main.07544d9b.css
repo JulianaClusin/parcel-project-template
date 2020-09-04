@@ -1638,14 +1638,8 @@ img {
 @media screen and (min-width: 768px) {
   .review-section {
     height: 460px;
-    padding-top: 121px;
-    padding-bottom: 166px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .review-section {
-    padding-top: 123px;
-    padding-bottom: 132px;
+    padding-top: 400px;
+    padding-bottom: 300px;
   }
 }
 
@@ -1657,12 +1651,17 @@ img {
 }
 @media screen and (max-width: 767px) {
   .slide1, .slide2, .slide3 {
-    top: 80px;
+    top: 121px;
   }
 }
 @media screen and (min-width: 768px) {
   .slide1, .slide2, .slide3 {
     top: 121px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slide1, .slide2, .slide3 {
+    top: 200px;
   }
 }
 
@@ -1733,9 +1732,9 @@ img {
 .client {
   font-family: DM Sans;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bolder;
   font-size: 14px;
-  line-height: 186%;
+  line-height: 1.86;
   text-align: center;
   display: block;
 }
@@ -1789,6 +1788,7 @@ input {
   position: absolute;
   z-index: 100;
   left: 50%;
+  top: 83%;
   transform: translateX(-50%);
 }
 @media screen and (max-width: 767px) {
@@ -1799,6 +1799,7 @@ input {
 @media screen and (min-width: 768px) {
   .controls {
     bottom: 4px;
+    top: 70%;
   }
 }
 
@@ -1826,18 +1827,63 @@ input {
   font-weight: 500;
   font-size: 12px;
 }
+@media screen and (min-width: 768px) {
+  .order-header,
+.order-item,
+.order-items-pack,
+.order-item-header,
+.order-item-city,
+.order-item-description,
+.order-item-list,
+.order-item-schedule,
+.order-item-time,
+.order-item-days,
+.order-item-hours,
+.order-item-contacts,
+.order-item-contacts-tel,
+.order-item-contacts-mail {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-header,
+.order-item,
+.order-items-pack,
+.order-item-header,
+.order-item-city,
+.order-item-description,
+.order-item-list,
+.order-item-schedule,
+.order-item-time,
+.order-item-days,
+.order-item-hours,
+.order-item-contacts,
+.order-item-contacts-tel,
+.order-item-contacts-mail {
+    font-size: 16px;
+  }
+}
 
 .order-thumb {
   background-color: #FFF5F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .order {
   position: relative;
-  transform: translateY(-7%);
-  width: 220px;
-  display: block;
+  transform: translateY(-3%);
+  min-width: 220px;
+  margin-left: 0;
   font-family: "DM Sans", sans-serif;
   font-style: normal;
+}
+@media screen and (min-width: 768px) {
+  .order {
+    transform: translateY(-7%);
+  }
 }
 
 .order-header {
@@ -1846,14 +1892,52 @@ input {
 
 .order-items-pack {
   display: block;
+  margin-bottom: 54px;
+}
+@media screen and (min-width: 768px) {
+  .order-items-pack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 81px;
+  }
 }
 
 .order-item {
   padding: 43px 20px;
+  margin-bottom: 20px;
   width: 220px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   background-color: #FFFFFF;
+}
+@media screen and (max-width: 767px) {
+  .order-item {
+    margin: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .order-item {
+    margin-bottom: 0;
+    margin-right: 25px;
+    padding: 50px 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-item {
+    width: 330px;
+    padding: 50px 44px;
+    margin-right: 31px;
+  }
+}
+
+.order-item:last-child {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .order-item:last-child {
+    margin-right: 0;
+  }
 }
 
 .order-item-header {
@@ -1870,16 +1954,36 @@ input {
 .order-item-header.food-truck {
   background-color: #C2E297;
 }
+@media screen and (min-width: 768px) {
+  .order-item-header {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    margin-bottom: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 
 .order-item-city {
-  margin-bottom: 10px;
+  font-weight: bolder;
   line-height: 186%;
   letter-spacing: 0.04em;
+  margin-bottom: 10px;
 }
 
 .order-item-description {
   line-height: 150%;
   color: #907E82;
+}
+@media screen and (min-width: 768px) {
+  .order-item-description {
+    line-height: 166%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .order-item-description {
+    line-height: 183%;
+  }
 }
 
 .order-item-description::after,
@@ -1893,7 +1997,8 @@ input {
 }
 
 .order-item-days {
-  line-height: 186%;
+  font-weight: bolder;
+  line-height: 1.86;
 }
 
 .order-item-time {
@@ -1912,26 +2017,51 @@ input {
 
 .order-buttons {
   flex-direction: column;
+  cursor: pointer;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .order-buttons {
+    flex-direction: row;
+  }
 }
 
 .order-main-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 17px;
+  min-width: 161px;
   margin-bottom: 10px;
 }
-
+.order-main-button span {
+  font-size: 30px;
+  font-weight: 700px;
+}
 @media screen and (min-width: 768px) {
-  .order-items-pack {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .order-main-button {
+    margin-bottom: 0;
+    margin-right: 14.5px;
+    line-height: 183%;
   }
 }
-@media screen and (max-width: 767px) {
-  .order-item:not(:last-child) {
-    margin-bottom: 20px;
+@media screen and (min-width: 1200px) {
+  .order-main-button {
+    margin-right: 15px;
   }
+}
 
-  .order-item:last-child {
-    margin-bottom: 54px;
+.order-main-button .order-pointer {
+  fill: #FFFFFF;
+}
+
+.order-secondary-button .order-pointer {
+  fill: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+  .order-buttons .button:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
 footer {
