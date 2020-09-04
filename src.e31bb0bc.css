@@ -427,9 +427,9 @@ img {
   padding-right: 20px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
-    width: 480px;
+    width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -441,9 +441,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-    padding-left: 115px;
-    padding-right: 115px;
+    width: 1280px;
   }
 }
 .button {
@@ -519,11 +517,20 @@ img {
 
 /* page-header */
 .page-header {
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
+  width: 320px;
 }
 @media screen and (min-width: 768px) {
   .page-header {
     position: relative;
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-header {
+    width: 1200px;
   }
 }
 
@@ -532,7 +539,7 @@ img {
   display: flex;
   align-items: center;
   position: absolute;
-  z-index: 1;
+  z-index: 11;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
