@@ -63,6 +63,7 @@
         
         color: #907E82;
         margin-bottom: 47px;
+        
 
         
         
@@ -194,6 +195,7 @@
     .made-text-container{
         width: calc(50% - 34px);
         text-align: left;
+        z-index: 2;
         
 
         p:nth-child(1){
