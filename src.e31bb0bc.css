@@ -460,7 +460,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1280px;
+    width: 1170px;
   }
 }
 .button {
@@ -1624,25 +1624,23 @@ img {
 }
 
 .review-section {
-  padding-top: 80px;
-  padding-bottom: 86px;
   position: relative;
   box-sizing: border-box;
   margin-top: 20px;
+  padding-top: 400px;
 }
 @media screen and (max-width: 767px) {
   .review-section {
     height: 700px;
+    padding-bottom: 400px;
   }
 }
 @media screen and (min-width: 768px) {
   .review-section {
     height: 460px;
-    padding-top: 400px;
     padding-bottom: 300px;
   }
 }
-
 .slide1, .slide2, .slide3 {
   position: absolute;
   visibility: hidden;
@@ -1695,8 +1693,10 @@ img {
   text-align: center;
   line-height: 31px;
   outline: 30px solid #FAFAFA;
-  text-decoration: underline #E1E1E1;
-  /* or 31px */
+  position: relative;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -1710,11 +1710,12 @@ img {
     margin-bottom: 60px;
     line-height: 30px;
     background-position: 0px 0px;
+    width: 150px;
   }
 }
 @media screen and (min-width: 768px) {
   .review {
-    max-width: 460px;
+    width: 524px;
     height: 83px;
     padding-bottom: 34px;
     background-position: 0px 0px;
@@ -1745,18 +1746,18 @@ img {
   width: 24px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 18px;
 }
 @media screen and (min-width: 768px) {
   .decoration {
-    margin-top: 24px;
+    margin-top: 55px;
     margin-bottom: 14px;
   }
 }
 @media screen and (min-width: 1200px) {
   .decoration {
-    margin-top: 15px;
+    margin-top: 55px;
     margin-bottom: 15px;
   }
 }
@@ -1778,6 +1779,7 @@ input {
   height: 12px;
   border-radius: 50%;
   background: #D9D9D9;
+  margin-left: 18px;
 }
 
 .label-main {
@@ -1788,18 +1790,151 @@ input {
   position: absolute;
   z-index: 100;
   left: 50%;
-  top: 83%;
+  top: 85%;
   transform: translateX(-50%);
 }
 @media screen and (max-width: 767px) {
   .controls {
-    bottom: 170px;
+    bottom: 75px;
   }
 }
 @media screen and (min-width: 768px) {
   .controls {
     bottom: 4px;
     top: 70%;
+  }
+}
+
+.wrap {
+  line-height: 2;
+  margin: 0;
+}
+
+.line1 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 169px;
+}
+@media screen and (min-width: 768px) {
+  .line1 {
+    top: 150px;
+    width: 522px;
+  }
+}
+
+.line2 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 198px;
+}
+@media screen and (min-width: 768px) {
+  .line2 {
+    top: 182px;
+    width: 522px;
+  }
+}
+
+.line3 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 228px;
+}
+@media screen and (min-width: 768px) {
+  .line3 {
+    display: none;
+  }
+}
+
+.line4 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 259px;
+}
+@media screen and (min-width: 768px) {
+  .line4 {
+    display: none;
+  }
+}
+
+.line5 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 289px;
+}
+@media screen and (min-width: 768px) {
+  .line5 {
+    display: none;
+  }
+}
+
+.line6 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 319px;
+}
+@media screen and (min-width: 768px) {
+  .line6 {
+    display: none;
+  }
+}
+
+.line7 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 349px;
+}
+@media screen and (min-width: 768px) {
+  .line7 {
+    display: none;
+  }
+}
+
+.line8 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 379px;
+}
+@media screen and (min-width: 768px) {
+  .line8 {
+    display: none;
+  }
+}
+
+.line9 {
+  position: absolute;
+  display: block;
+  width: 151px;
+  border-bottom: 1px solid #E1E1E1;
+  margin: 0;
+  top: 409px;
+}
+@media screen and (min-width: 768px) {
+  .line9 {
+    display: none;
   }
 }
 
