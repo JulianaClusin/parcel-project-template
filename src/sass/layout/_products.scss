@@ -142,9 +142,12 @@
   }
   .products-card {
     display: flex;
+    justify-content: center;
 
-    margin-left: -6px;
-    margin-right: 20px;
+    // margin-left: -6px;
+    // margin-right: 20px;
+    // margin-left: auto;
+    // margin-right: auto;
   }
   .product-text {
     line-height: 1.76;
@@ -165,10 +168,12 @@
   .card:not(:last-child) {
     margin-right: 24px;
   }
-  .products-card {
-    margin-left: 80px;
-    margin-right: 20px;
-  }
+  // .products-card {
+  //   // margin-left: 80px;
+  //   // margin-right: 20px;
+  //   // margin-left: auto;
+  //   // margin-right: auto;
+  // }
   .card-title {
     padding-top: 190px;
     font-size: 30px;
