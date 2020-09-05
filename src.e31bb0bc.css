@@ -1482,8 +1482,7 @@ img {
 
   .products-card {
     display: flex;
-    margin-left: -6px;
-    margin-right: 20px;
+    justify-content: center;
   }
 
   .product-text {
@@ -1507,11 +1506,6 @@ img {
 
   .card:not(:last-child) {
     margin-right: 24px;
-  }
-
-  .products-card {
-    margin-left: 80px;
-    margin-right: 20px;
   }
 
   .card-title {
