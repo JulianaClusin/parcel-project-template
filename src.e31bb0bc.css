@@ -539,18 +539,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 320px;
-}
-@media screen and (min-width: 768px) {
-  .page-header {
-    position: relative;
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .page-header {
-    width: 1200px;
-  }
 }
 
 .nav-box {
@@ -946,27 +934,39 @@ img {
     z-index: -1;
   }
 
-  .main-title {
-    position: absolute;
-    top: 35%;
-    left: 5%;
-  }
-
   .hero-main-image {
     position: absolute;
     top: 18%;
     right: 10%;
     z-index: 0;
+    width: 171px;
+    height: 410px;
+    background-image: url(/ice-mob.b760b07a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
+}
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
+  .hero-main-image {
+    background-image: url(/ice-mob@2x.69437c98.png);
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-title {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 767px) {
   .hero-btn {
     top: 63%;
     left: 5%;
   }
-
-  .image-girl,
-.image-milk,
-.hero-text,
+}
+@media screen and (max-width: 767px) {
+  .hero-text,
 .hero-list,
 .hero-svg {
     display: none;
@@ -1002,25 +1002,62 @@ img {
     top: 16%;
     right: 33%;
     z-index: 0;
+    background-image: url(/ice-tab.9404e8fa.png);
+    width: 143px;
+    height: 336px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+  .hero-main-image {
+    background-image: url(/ice-tab@2x.b9e3d6dd.png);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-btn {
     top: 58%;
     left: 5%;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .image-girl {
     position: absolute;
     bottom: 0;
     right: 4%;
+    background-image: url(/so-tasty-tab.e2534a0f.png);
+    width: 168px;
+    height: 133px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+  .image-girl {
+    background-image: url(/so-tasty-tab@2x.f2cb880e.png);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .image-milk {
     position: absolute;
     left: 5%;
     bottom: 5%;
+    background-image: url(/milk-tab.60e1100d.png);
+    width: 124px;
+    height: 126px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+  .image-milk {
+    background-image: url(/milk-tab@2x.0f7d2aab.png);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-text {
     display: flex;
     position: absolute;
@@ -1035,7 +1072,8 @@ img {
     line-height: 150%;
     color: #FFFFFF;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-svg {
     position: absolute;
     border-radius: 50%;
@@ -1044,32 +1082,37 @@ img {
     bottom: 6%;
     left: 20%;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .one {
     position: absolute;
     top: 27%;
     right: 10%;
     z-index: 1;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .two {
     position: absolute;
     top: 45%;
     right: 10%;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .cafes {
     position: absolute;
     top: 32%;
     right: 10%;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .trucks {
     position: absolute;
     top: 51%;
     right: 10%;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .main-circle {
     position: absolute;
     top: 45%;
@@ -1077,7 +1120,8 @@ img {
     width: 16px;
     height: 16px;
   }
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .round-circle {
     position: absolute;
     top: 27%;
@@ -1110,20 +1154,56 @@ img {
     top: 16%;
     right: 33%;
     z-index: 0;
+    background-image: url(/ice-komp.683e7652.png);
+    width: 236px;
+    height: 557px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero-main-image {
+    background-image: url(/ice-komp@2x.4c4c3a99.png);
+  }
+}
+@media screen and (min-width: 1200px) {
   .image-girl {
     position: absolute;
     bottom: 0;
     right: 4%;
+    background-image: url(/so-tasty-komp.b3e60e73.png);
+    width: 293px;
+    height: 232px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .image-girl {
+    background-image: url(/so-tasty-komp@2x.5c99e2cb.png);
+  }
+}
+@media screen and (min-width: 1200px) {
   .image-milk {
     position: absolute;
     left: 5%;
     bottom: 5%;
+    background-image: url(/milk-komp.e66f1a11.png);
+    width: 188px;
+    height: 191px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .image-milk {
+    background-image: url(/milk-komp@2x.d7c637d5.png);
+  }
+}
+@media screen and (min-width: 1200px) {
   .hero-svg {
     position: absolute;
     border-radius: 50%;
@@ -1132,7 +1212,8 @@ img {
     bottom: 7%;
     left: 23%;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .hero-text {
     display: flex;
     position: absolute;
@@ -1147,7 +1228,8 @@ img {
     line-height: 140%;
     color: #FFFFFF;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .main-title {
     position: absolute;
     top: 23%;
@@ -1155,16 +1237,19 @@ img {
     font-size: 38px;
     line-height: 44px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .minor-title {
     font-size: 60px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .hero-btn {
     top: 52%;
     left: 5%;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .produkt {
     width: 104px;
     height: 40px;
@@ -1172,7 +1257,8 @@ img {
     line-height: 18px;
     padding-left: 20px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .made {
     width: 138px;
     height: 40px;
@@ -1180,42 +1266,49 @@ img {
     line-height: 18px;
     padding-left: 20px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .number {
     font-size: 46px;
     line-height: 53px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .one {
     position: absolute;
     top: 26%;
     right: 10%;
     z-index: 10;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .two {
     position: absolute;
     top: 40%;
     right: 10%;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .color-style {
     font-size: 14px;
     line-height: 18px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .cafes {
     position: absolute;
     top: 32%;
     right: 10%;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .trucks {
     position: absolute;
     top: 46%;
     right: 10%;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .main-circle {
     position: absolute;
     top: 40%;
@@ -1223,7 +1316,8 @@ img {
     width: 30px;
     height: 30px;
   }
-
+}
+@media screen and (min-width: 1200px) {
   .round-circle {
     position: absolute;
     top: 25%;
