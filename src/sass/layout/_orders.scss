@@ -243,6 +243,7 @@
 
 .order-secondary-button .order-pointer {
   fill: $text-main-color-white;
+  margin-left: 10px;
   // border: 2px solid $text-main-color-white;
 }
 
@@ -250,4 +251,10 @@
   .order-buttons .button:not(:last-child) {
     margin-bottom: 10px;
   }
+}
+
+.order-secondary-button {
+  @media screen and (max-width: 767px) {
+    width: 161px;
+    }
 }
