@@ -1547,9 +1547,30 @@ img {
   text-align: center;
   margin-bottom: 150px;
   padding-top: 125px;
+  position: relative;
 }
 .made-section .container {
   position: relative;
+}
+.made-section .made-picture-container {
+  position: relative;
+}
+@media screen and (min-width: 320px) {
+  .made-section .made-picture-container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .made-section .made-picture-container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .made-section .made-picture-container {
+    width: 1200px;
+  }
 }
 .made-section h2 {
   margin-top: 15px;
@@ -1575,7 +1596,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .made-section p {
-    padding: 47px 30px 0px 30px;
+    padding: 35px 30px 0px 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1588,11 +1609,19 @@ img {
   color: #907E82;
   margin-bottom: 47px;
 }
-.made-section .button {
-  margin-left: auto;
-  margin-right: auto;
-}
 @media screen and (max-width: 766px) {
+  .made-section .button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .made-section .button {
+    margin-left: 0px;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
   .made-section .made-list {
     padding-bottom: 145px;
   }
@@ -1689,6 +1718,7 @@ img {
   .made-text-container {
     width: calc(50% - 34px);
     text-align: left;
+    z-index: 2;
   }
   .made-text-container p:nth-child(1) {
     margin-bottom: 45px;
@@ -1712,8 +1742,7 @@ img {
 @media screen and (min-width: 1200px) {
   .milk-wave-picture {
     display: block;
-    top: 342px;
-    height: 534px;
+    top: 217px;
   }
 }
 
