@@ -416,7 +416,7 @@ img {
   line-height: 1.13;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #FFA5BA;
+  color: #c3dbe8;
 }
 
 .section-title {
@@ -426,7 +426,7 @@ img {
   line-height: 1.12;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #D41443;
+  color: #262737;
 }
 
 .hero-title-start {
@@ -474,15 +474,15 @@ img {
   font-family: DM Sans;
   font-weight: bold;
   line-height: 18px;
-  background-color: #C7133E;
+  background-color: #9acce0;
   color: #ffffff;
 }
 .button:hover {
-  background-color: #C7133E;
+  background-color: #9acce0;
 }
 .button .button-white {
   background-color: #FFFFFF;
-  color: #D41443;
+  color: #262737;
 }
 .button .button-white:hover {
   background-color: #ECEBEB;
@@ -490,7 +490,7 @@ img {
 
 .button-white {
   background-color: #FFFFFF;
-  color: #D41443;
+  color: #262737;
 }
 .button-white:hover {
   background-color: #ECEBEB;
@@ -518,11 +518,11 @@ img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #FFA5BA;
+  background-color: #c3dbe8;
   transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-item:hover, .social-link-item:focus {
-  background-color: #D41443;
+  background-color: #262737;
 }
 
 .social-link:not(:last-child) {
@@ -544,6 +544,7 @@ img {
 .nav-box {
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
   position: absolute;
   z-index: 11;
@@ -640,7 +641,7 @@ img {
     height: 1020px;
     z-index: 100;
     margin-top: 0;
-    background: #e17992;
+    background: #c3dbe8;
   }
 }
 @media screen and (max-width: 1199px) and (max-width: 767px) {
@@ -685,7 +686,7 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.29;
-  border: 1px solid #e18298;
+  border: 1px solid #b3b1ff;
 }
 @media screen and (min-width: 768px) {
   .site-nav-link {
@@ -701,12 +702,12 @@ img {
   }
 }
 .site-nav-link:hover, .site-nav-link:focus {
-  color: #D41443;
+  color: #262737;
 }
 
 .site-nav-link.current,
 .site-nav-link.current::after {
-  color: #D41443;
+  color: #262737;
   opacity: 1;
 }
 
@@ -716,7 +717,7 @@ img {
   top: 60px;
   width: 209px;
   height: 44px;
-  color: #d41443;
+  color: #262737;
   background: #ffffff;
   border-radius: 22px;
   border-color: transparent;
@@ -826,11 +827,60 @@ img {
 }
 
 .hero-section {
-  background-color: #FFB8CA;
+  background: linear-gradient(357deg, #076598, #279ed9, #70c3ec);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 35s ease infinite;
+  -moz-animation: AnimationName 35s ease infinite;
+  -o-animation: AnimationName 35s ease infinite;
+  animation: AnimationName 35s ease infinite;
 }
 
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 49% 0%;
+  }
+  50% {
+    background-position: 52% 100%;
+  }
+  100% {
+    background-position: 49% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 49% 0%;
+  }
+  50% {
+    background-position: 52% 100%;
+  }
+  100% {
+    background-position: 49% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 49% 0%;
+  }
+  50% {
+    background-position: 52% 100%;
+  }
+  100% {
+    background-position: 49% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 49% 0%;
+  }
+  50% {
+    background-position: 52% 100%;
+  }
+  100% {
+    background-position: 49% 0%;
+  }
+}
 .main-title {
-  font-family: Titan One;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -842,7 +892,7 @@ img {
 }
 
 .minor-title {
-  color: #D41443;
+  color: #262737;
   font-size: 40px;
 }
 
@@ -852,7 +902,7 @@ img {
   text-align: center;
   border: none;
   padding-left: 15px;
-  background-color: #D41443;
+  background-color: #262737;
   color: #FFFFFF;
   width: 62px;
   height: 24px;
@@ -871,7 +921,7 @@ img {
   text-align: center;
   border: none;
   padding-left: 15px;
-  color: #D41443;
+  color: #262737;
   width: 83px;
   height: 24px;
   border-radius: 20px;
@@ -899,7 +949,7 @@ img {
   line-height: 32px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #D41443;
+  color: #262737;
 }
 
 .color-style {
@@ -929,7 +979,7 @@ img {
     left: 10%;
     width: 346px;
     height: 344px;
-    background: #FFA5BA;
+    background: #c3dbe8;
     border-radius: 50%;
     z-index: -1;
   }
@@ -953,10 +1003,18 @@ img {
   }
 }
 @media screen and (max-width: 767px) {
+  .foto-yulia-sulaeva {
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    right: 18%;
+  }
+}
+@media screen and (max-width: 767px) {
   .main-title {
     position: absolute;
-    top: 35%;
-    left: 5%;
+    top: 29%;
+    left: 57%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -987,7 +1045,7 @@ img {
     top: 50%;
     left: 60%;
     transform: translate(-50%, -50%);
-    background: #FFA5BA;
+    background: #c3dbe8;
     border-radius: 50%;
   }
 
@@ -1142,10 +1200,10 @@ img {
     position: absolute;
     width: 538px;
     height: 538px;
-    top: 50%;
-    left: 60%;
+    top: 53%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    background: #FFA5BA;
+    background: #c3dbe8;
     border-radius: 50%;
   }
 
@@ -1232,21 +1290,24 @@ img {
 @media screen and (min-width: 1200px) {
   .main-title {
     position: absolute;
-    top: 23%;
-    left: 5%;
+    top: 25%;
+    left: 55%;
     font-size: 38px;
     line-height: 44px;
   }
 }
 @media screen and (min-width: 1200px) {
   .minor-title {
-    font-size: 60px;
+    position: absolute;
+    top: 29%;
+    left: 0%;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-btn {
-    top: 52%;
-    left: 5%;
+    top: 62%;
+    left: 55%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1327,8 +1388,8 @@ img {
   }
 }
 .section-title {
-  margin-top: 120px;
-  margin-bottom: 140px;
+  margin-top: 80px;
+  margin-bottom: 90px;
 }
 
 .products-card {
@@ -1347,14 +1408,14 @@ img {
 }
 
 .product-title {
-  color: #D41443;
+  color: #262737;
   letter-spacing: 0.04em;
   text-align: center;
   text-transform: uppercase;
 }
 
 .product-subtitles {
-  color: #FFA5BA;
+  color: #c3dbe8;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1366,7 +1427,7 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.15;
   text-align: center;
   text-transform: uppercase;
@@ -1398,15 +1459,15 @@ img {
 }
 
 .ice-cream {
-  background-color: #FFA5BA;
+  background-color: #c3dbe8;
 }
 
 .ice-coffee {
-  background-color: #F0D1A5;
+  background-color: #785e84;
 }
 
 .milkshakes {
-  background-color: #C2E297;
+  background-color: #c8d0d4;
 }
 
 @media screen and (max-width: 767px) {
@@ -1537,7 +1598,7 @@ img {
   }
 }
 .made-section {
-  background-color: #FFF5F6;
+  background-color: #b3b1ff;
   text-align: center;
   margin-bottom: 150px;
   padding-top: 125px;
@@ -2117,7 +2178,7 @@ input {
 }
 
 .order-thumb {
-  background-color: #FFF5F6;
+  background-color: #b3b1ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2200,11 +2261,11 @@ input {
   line-height: 186%;
   text-transform: uppercase;
   color: #FFFFFF;
-  background-color: #F0D1A5;
+  background-color: #785e84;
   border-radius: 6px;
 }
 .order-item-header.food-truck {
-  background-color: #C2E297;
+  background-color: #c8d0d4;
 }
 @media screen and (min-width: 768px) {
   .order-item-header {
@@ -2254,7 +2315,7 @@ input {
 }
 
 .order-item-time {
-  color: #FFA5BA;
+  color: #c3dbe8;
   line-height: 186%;
 }
 
@@ -2323,7 +2384,7 @@ input {
 }
 
 footer {
-  background-color: #FFF5F6;
+  background-color: #b3b1ff;
 }
 
 .footer-address-and-social-link {
@@ -2348,7 +2409,7 @@ footer {
 }
 
 .address-nav-link-footer {
-  color: #D41443;
+  color: #262737;
 }
 
 .copyright {
